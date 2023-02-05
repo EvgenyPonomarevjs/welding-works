@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сварочные работы</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<script>
+$(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 1,
+    margin: 0,
+    loop: true,
+    nav: false
+  });
+});
+$(document).ready(function() { 
+  var button = $('#button-up');	
+  $(window).scroll (function () {
+    if ($(this).scrollTop () > 300) {
+      button.fadeIn();
+    } else {
+      button.fadeOut();
+    }
+});	 
+button.on('click', function(){
+$('body, html').animate({
+scrollTop: 0
+}, 800);
+return false;
+});		 
+});
+</script>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href=""><img src="/img/logo-tokar-v.png" alt="logo"></a>
+        </div>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="">Главная</a></li>
+            <li><a href="">Каталог оборудования</a></li>
+            <li><a href="">Услуги</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+        <div class="navbar-link">
+            <div class="navbar-link__wa">
+                <div class="wr">
+                    <a href="https://wa.me/+79628608299"><img src="/img/icon-whatsapp.png" alt="whatsapp"></a>
+                    <a href="tel: +79628608299">8-962-860-82-99</a>
+                </div>
+            </div>
+            <a class="navbar-link__mail" href="mailto:kalimbet.artur@bk.ru">Задавайте вопросы по электронной почте</a>
+        </div>
+    </header>
+    <section class="typesWork">
+        <div class="owl-carousel owl-theme" id="slider">
+            <div class="slide" style="background-image: url('/img/home-slideshow-1.jpg')">
+                <div class="slide__text">
+                    <h2 class="slide__title">Токарные работы любой сложности</h2>
+                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                    <button class="slide__btn">Подробнее</button>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('/img/home-slideshow-0002-1.jpg')">
+                <div class="slide__text">
+                    <h2 class="slide__title">Производство различных деталей из метала</h2>
+                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                    <button class="slide__btn">Подробнее</button>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('/img/home-slideshow-4.jpg">
+                <div class="slide__text">
+                    <h2 class="slide__title">Сварочные работы любой сложности</h2>
+                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                    <button class="slide__btn">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="">
+        <h2>Услуги</h2>
+        <div>
+            Восстановление  ремонт расточка наплавка изношенных цилиндрических отверстий диаметром от D45мм до D200мм;
+Восстановление отверстий на дорожно-строительной и карьерной технике;
+Расточка ремонт наплавка отверстий до требуемых размеров с соблюдением условий по посадке;
+Расточка  наплавка для восстановления геометрии отверстий;
+Замена втулок и пальцев экскаваторов, бульдозеров, погрузчиков, кранов;
+Восстановление стрел кранов, погрузчиков и экскаваторов;
+Расточка отверстий;
+Восстановление рукояти экскаватора;
+восстановление  проушин  крепления  гидроцилиндров;
+Восстановление секций бетононасосов;
+Восстановление шарнирных соединений;
+ Ремонт восстановление отверстий отвалов ;
+Расточка наплавка восстановление ремонт  проушин
+Расточно-наплавочные работы;
+Восстановление посадочных мест втулок и подшипников;
+Восстановление  ремонт  ковшей, стрелы и рукояти экскаватора,
+Ремонт рамы экскаватора трактора бульдозера крана  строительной сельхозтехники
+восстановление посадочных мест под обоймы подшипников
+Устранение эллипса
+Ремонт поворотной оси ремонт поворотной каретки
+Одновременная соосная расточка нескольких разнесенных друг от друга отверстий
+Восстановление ходовой рамы башенного крана
+Ремонт восстановление шарнирных соединений,
+Ремонт полурамы
+Ремонт  восстановление осей балансиров
+Восстановление ходовой рамы
+Ремонт восстановление кронштейнов
+        </div>
+    </section> -->
+
+
+    <section class="advantages">
+        <div class="advantages__item">
+            <h2>МЕТАЛЛООБРАБОТКА И МЕХАНИЧЕСКАЯ ОБРАБОТКА МЕТАЛЛА</h2>
+            <div class="advantages__wrap">
+                <div class="advantages__item-1">
+                    <img src="/img/advantages1.png" alt="advantages foto">
+                    <h3>Высокое качество</h3>
+                    <p>Производим продукцию из металла самого высокого качества, опыт работы более 10 лет, гарантия!</p>
+                </div>
+                <div class="advantages__item-1">
+                    <img src="/img/advantages2.png" alt="advantages foto">
+                    <h3>Производство</h3>
+                    <p>Мы сами выполняем все заказы наших клиентов, имеем необходимые производственные мощьности!</p>
+                </div>
+                <div class="advantages__item-1">
+                    <img src="/img/advantages3.png" alt="advantages foto">
+                    <h3>Нас рекомендуют</h3>
+                    <p>Наши клиенты рекомендуют нас потому что остались довольны полученным результатом!</p>
+                </div>
+                <div class="advantages__item-1">
+                    <img src="/img/advantages4.png" alt="advantages foto">
+                    <h3>Расположение</h3>
+                    <p>Мы находимся в Новороссийске. Имеем удобное расположение производственной базы. К нам удобно добраться!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we">
+        <div class="wrap">
+            <div class="we__wrap">
+                <h2>Мы профессионалы своего дела <br>
+                Работаем без посредников, работаем со всеми.</h2>
+                <p class="we__wrap-p">В нашей компании работают профессиональные токари, фрезеровщики, сверловщики, шлифовщики, и инженер. Мы осуществляем токарные работы на металлорежущих станках, которые позволяют достичь необходимую точность формы и размера деталей. Наши принцыпы - это выполнении любого заказа, высокая скорость работы и гарантия результата! Звоните по любым вопросам в любое время, будем рады проконсультировать вас!</p>
+                <small>КОНСУЛЬТАЦИИ ПО ТЕЛЕФОНУ:<a href="tel: +79628608299">8-962-860-82-99</a></small>
+            </div>
+            <img src="/img/we foto_prev_ui.png" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__item">
+            <img src="/img/logo-tokar-v.png" alt="logo">
+            <p>Город Новороссийск ул. Железнодорожная петля</p>
+            <a href="tel: +79628608299">8-962-860-82-99</a>
+            <p>Время работы: 09:00 - 20:00</p>
+            <div id="button-up"><img src="/img/arrow-up-svgrepo-com.svg" alt=""></div>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="bor"><a href="">Главная</a></li>
+                    <li class="bor"><a href="">Каталог оборудования</a></li>
+                    <li class="bor"><a href="">Услуги</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+<script src="/js/scripts.js"></script>
+</html>

@@ -1,0 +1,109 @@
+body {
+    background-color: #f9f9f9;
+}
+.header {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: #1a1a1a;
+    color: #666666;
+    padding: 0 0;
+    box-shadow: none;
+    position:relative;
+    z-index: 200;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+.header-logo img {
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-list  a{
+    padding: 0 10px;
+    line-height: 100px;
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all .25s;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.navbar-list  a:hover{
+    border-bottom: solid white 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.navbar-list li {
+    padding-right: 30px;
+}
+.navbar-link__wa {
+    width: 200px;
+    height: 50px;
+    border-radius: 3000px;
+    background-color: white;
+    margin: 0 auto;
+}
+.wr {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 4px;
+
+}
+.navbar-link {
+    padding-right: 30px;
+}
+.navbar-link__wa {
+    margin-bottom: 20px;
+}
+.navbar-link__wa:hover {
+    background-color: #32CD32;
+}
+.navbar-link__wa a{
+    color: black;
+    font-size: 20px!important;
+    font-weight: 600;
+}
+.navbar-link__wa img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-link__mail {
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all .25s;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.navbar-link__mail:hover {
+    border-bottom: solid white 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+
