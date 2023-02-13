@@ -1,0 +1,136 @@
+.catalog {
+    position: relative;
+}
+.catalog-pos {
+    position: relative;
+}
+.catalog-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background-image: url(/img/gallery-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.catalog-wrap::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background: #222222;
+    opacity: 0.8;
+}
+.catalog__item {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 100px;
+    padding-top: 120px;
+    z-index: 100;
+}
+.catalog__item h1 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 25px 0;
+    font-family: 'Noto Serif', Times New Roman, serif;
+    font-weight: normal;
+    text-transform: none;
+}
+.catalog__item-text {
+    color: #ffffff80;
+    text-shadow: none;
+    font-family: "arial", helvetica, sans-serif;
+    list-style: none;
+    font-size: 17px;
+    line-height: 25px;
+}
+.catalog__content {
+    background-color: #ffffff;
+    z-index: 1500;
+    position: relative;
+    padding-top: 120px;
+}
+.catalog__content-heading {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.heading-text1 {
+    width: 100%;
+    max-width: 400px;
+}
+.heading-text1 p {
+    color: #aaaaaa;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 13px;
+}
+.heading-text1 h3 {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 25px 0;
+    font-family: 'Noto Serif', Times New Roman, serif;
+    font-weight: normal;
+    color: #222222;
+    text-transform: none;
+}
+
+.heading-text2 {
+    width: 100%;
+    max-width: 800px;
+}
+.heading-text2 p {
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 15px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #666666;
+}
+.catalog__equipment {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.equipment-img {
+    display: block;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 0 0 31.333333%;
+    width: 280px;
+    height: 350px;
+    border: 1px solid #666666;
+}
+.textfoot {
+    width: 100%;
+    background: #f9f9f9;
+
+}
+.textfoot p {
+    display: block;
+    padding: 60px 60px 60px 60px;
+    color: #666666;
+    text-shadow: none;
+    font-family: "arial", helvetica, sans-serif;
+    list-style: none;
+    font-size: 17px;
+    line-height: 25px;
+}
+.textfoot a {
+    color: #af9a7d;
+    text-decoration: none;
+    cursor: pointer;
+}

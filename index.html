@@ -12,34 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
 </head>
-<script>
-$(function() {
-  // Owl Carousel
-  var owl = $(".owl-carousel");
-  owl.owlCarousel({
-    items: 1,
-    margin: 0,
-    loop: true,
-    nav: false
-  });
-});
-$(document).ready(function() { 
-  var button = $('#button-up');	
-  $(window).scroll (function () {
-    if ($(this).scrollTop () > 300) {
-      button.fadeIn();
-    } else {
-      button.fadeOut();
-    }
-});	 
-button.on('click', function(){
-$('body, html').animate({
-scrollTop: 0
-}, 800);
-return false;
-});		 
-});
-</script>
 <body>
     <header class="header">
         <div class="header-logo">
@@ -49,7 +21,7 @@ return false;
         <ul class="navbar-list">
             <li><a href="/index.html">Главная</a></li>
             <li><a href="/services.html">Услуги</a></li>
-            <li><a href="">Каталог оборудования</a></li>
+            <li><a href="/catalog.html">Каталог оборудования</a></li>
             <li><a href="">Контакты</a></li>
         </ul>
     </nav>
