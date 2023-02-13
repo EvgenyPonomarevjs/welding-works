@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function() { 
+      var button = $('#button-up');	
+      $(window).scroll (function () {
+        if ($(this).scrollTop () > 300) {
+          button.fadeIn();
+        } else {
+          button.fadeOut();
+        }
+    });	 
+    button.on('click', function(){
+    $('body, html').animate({
+    scrollTop: 0
+    }, 800);
+    return false;
+    });		 
+    });
+    </script>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href=""><img src="/img/logo-tokar-v.png" alt="logo"></a>
+        </div>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="/index.html">Главная</a></li>
+            <li><a href="/services.html">Услуги</a></li>
+            <li><a href="">Каталог оборудования</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+        <div class="navbar-link">
+            <div class="navbar-link__wa">
+                <div class="wr">
+                    <a href="https://wa.me/+79628608299"><img src="/img/icon-whatsapp.png" alt="whatsapp"></a>
+                    <a href="tel: +79628608299">8-962-860-82-99</a>
+                </div>
+            </div>
+            <a class="navbar-link__mail" href="mailto:kalimbet.artur@bk.ru">Задавайте вопросы по электронной почте</a>
+        </div>
+    </header>
+    <section class="servises">
+            <h1 class="servises-heading-h1">Мы выполняем широкий спектр различных работ</h1>  
+            <p class="servises-heading-p">Основное направление нашей деятельности являются - токарные, сварочные, фрезерные работы . Мы принимаем заказы на выполнение работ любой сложности как в Новороссийске, Краснодарском крае, так и ближайших регионов.</p>
+        <div class="services__content">
+            <h2>Услуги:</h2>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Токарные работы:</h3>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services1.jpg" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Восстановление  ремонт расточка наплавка изношенных цилиндрических отверстий диаметром от D45мм до D200мм;</h3>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services2.jpg" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Восстановление отверстий на дорожно-строительной и карьерной технике;</h3>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services3.webp" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Расточка наплавка для восстановления геометрии отверстий;</h3>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services4.jpg" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Восстановление и ремонт кранов, погрузчиков и экскаваторов;</h3>
+                    <ul>
+                        <li>- Восстановление рукояти экскаватора;</li>
+                        <li>- Восстановление  проушин  крепления  гидроцилиндров;</li>
+                        <li>- Восстановление секций бетононасосов;</li>
+                        <li>- Восстановление шарнирных соединений;</li>
+                        <li>- Ремонт восстановление отверстий отвалов;</li>
+                        <li>- Расточка наплавка восстановление ремонт  проушин;</li>
+                        <li>- Восстановление посадочных мест втулок и подшипников;</li>
+                        <li>- Восстановление  ремонт  ковшей, стрелы и рукояти экскаватора,</li>
+                        <li>- Ремонт рамы экскаватора трактора бульдозера крана  строительной сельхозтехники;</li>
+                        <li>- Ремонт поворотной оси ремонт поворотной каретки;</li>
+                        <li>- Восстановление ходовой рамы башенного крана;</li> 
+                        <li>- Ремонт полурамы;</li>
+                        <li>- Замена втулок и пальцев экскаваторов, бульдозеров, погрузчиков, кранов;</li>
+                        <li>- Восстановление ходовой рамы;</li>
+                        <li>- Ремонт восстановление шарнирных соединений;</li>
+                    </ul>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services6.jpg" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Расточка отверстий;</h3>
+                    <ul>
+                        <li>- Расточно-наплавочные работы;</li->
+                        <li>- Восстановление посадочных мест под обоймы подшипников;</li> 
+                        <li>- Устранение эллипса;</li>
+                    </ul>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services7.jpg" alt="">
+            </div>
+            <div class="services__content-item">
+                <div class="services__content-item-wr">
+                    <h3>Одновременная соосная расточка нескольких разнесенных друг от друга отверстий;</h3>
+                    <p>Если у вас есть дополнительные вопросы звоните по номеру <a class="link" href="tel: +79628608299">8-962-860-82-99 </a>(с 9:00 - 20:00)</p>
+                    <p>Или пишите на наш e-mail: <a id="link__mail"  class="navbar-link__mail" href="mailto:kalimbet.artur@yandex.ru">kalimbet.artur@yandex.ru</a></p>
+                </div>
+                <img src="/img/services8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__item">
+            <img src="/img/logo-tokar-v.png" alt="logo">
+            <p>Город Новороссийск ул. Железнодорожная петля</p>
+            <a href="tel: +79628608299">8-962-860-82-99</a>
+            <p>Время работы: 09:00 - 20:00</p>
+            <div id="button-up"><img src="/img/arrow-up-svgrepo-com.svg" alt=""></div>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="bor"><a href="/index.html">Главная</a></li>
+                    <li class="bor"><a href="/services.html">Услуги</a></li>
+                    <li class="bor"><a href="">Каталог оборудования</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

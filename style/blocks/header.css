@@ -52,6 +52,10 @@ body {
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
 }
+/*класс для активных ссылок*/
+.link-active{
+    border-bottom: solid white 1px;
+}
 .navbar-list li {
     padding-right: 30px;
 }
@@ -69,7 +73,6 @@ body {
     height: 40px;
     margin: 0 auto;
     padding-top: 4px;
-
 }
 .navbar-link {
     padding-right: 30px;
@@ -78,6 +81,8 @@ body {
     margin-bottom: 20px;
 }
 .navbar-link__wa:hover {
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all .25s;
     background-color: #32CD32;
 }
 .navbar-link__wa a{
@@ -96,7 +101,7 @@ body {
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
-    -webkit-transition: all 0.12s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
     transition: all .25s;
     -webkit-transform: translate3d(0, 0, 0);
 }
