@@ -24,3 +24,11 @@ $(document).ready(function() {
       nav: false
     });
   });
+
+
+  $(document).ready(function() {
+    $("#your_link").fancybox({
+      hideOnOverlayClick:true,
+      hideOnContentClick:true
+    });
+  });
