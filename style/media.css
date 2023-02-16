@@ -317,7 +317,7 @@
     .catalog__item {
         position: relative;
         width: 100%;
-        max-width: 420px;
+        max-width: 390px;
         padding-left: 20px;
         padding-top: 20px;
         z-index: 100;
