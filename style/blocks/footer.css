@@ -1,10 +1,14 @@
 .footer {
-    height: 400px;
+    width: 100%;
+    max-width: 2500px;
+    margin: 0 auto;
+    height: 100%;
     padding-top: 50px;
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.5);
     text-shadow: none;
     background-color: #1a1a1a;
+    padding-bottom: 20px;
 }
 .footer__item {
     width: 100%;

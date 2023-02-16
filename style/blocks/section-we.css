@@ -1,7 +1,9 @@
 .we {
     width: 100%;
+    max-width: 1800px;
     background: #f9f9f9;
     margin-top: 120px;
+    position: relative;
 }
 .wrap {
     width: 100%;

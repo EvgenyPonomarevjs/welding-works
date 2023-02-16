@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сварочные работы</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 </head>
 <body>
     <header class="header">
+        <nav class="menubur">
+            <div class="wrapper">
+                <div class="menuToggle icon">
+                    <div class="hamburger"></div>
+                </div>
+                
+                <ul class="menu">
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                    <li><a href="./catalog.html">Каталог оборудования</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+        </nav> 
         <div class="header-logo">
             <a href=""><img src="./img/logo-tokar-v.png" alt="logo"></a>
         </div>
@@ -35,28 +49,25 @@
         </div>
     </header>
     <section class="typesWork">
-        <div class="owl-carousel owl-theme" id="slider">
-            <div class="slide" style="background-image: url('./img/home-slideshow-1.jpg')">
+        <div id="js-carousel-1" class="owl-carousel">
+            <div class="carousel-item backimg1">                
                 <div class="slide__text">
-                    <h2 class="slide__title">Токарные работы любой сложности</h2>
-                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
-                    <button class="slide__btn">Подробнее</button>
-                </div>
-            </div>
-            <div class="slide" style="background-image: url('./img/home-slideshow-0002-1.jpg')">
+                <h2 class="slide__title">Токарные работы любой сложности</h2>
+                <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                <button class="slide__btn">Подробнее</button>
+            </div></div>
+            <div class="carousel-item backimg2">                
                 <div class="slide__text">
-                    <h2 class="slide__title">Производство различных деталей из метала</h2>
-                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
-                    <button class="slide__btn">Подробнее</button>
-                </div>
-            </div>
-            <div class="slide" style="background-image: url('./img/home-slideshow-4.jpg')">
+                <h2 class="slide__title">Производство различных деталей из метала</h2>
+                <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                <button class="slide__btn">Подробнее</button>
+            </div></div>
+            <div class="carousel-item backimg3">                
                 <div class="slide__text">
-                    <h2 class="slide__title">Сварочные работы любой сложности</h2>
-                    <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
-                    <button class="slide__btn">Подробнее</button>
-                </div>
-            </div>
+                <h2 class="slide__title">Сварочные работы любой сложности</h2>
+                <p class="slide__p">Ознакомьтесь с нашими работами по кнопке ниже</p>
+                <button class="slide__btn">Подробнее</button>
+            </div></div>
         </div>
     </section>
     <section class="advantages">

@@ -2,6 +2,8 @@ body {
     background-color: #f9f9f9;
 }
 .header {
+    width: 100%;
+    max-width: 2500px;
     height: 130px;
     display: flex;
     justify-content: space-between;
@@ -10,10 +12,9 @@ body {
     color: #666666;
     padding: 0 0;
     box-shadow: none;
-    position:relative;
+    position: relative;
     z-index: 200;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     left: 0;
     right: 0;
     text-align: center;
@@ -37,6 +38,19 @@ body {
 .navbar-list  a{
     padding: 0 10px;
     line-height: 100px;
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all .25s;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.menu  a{
+    padding: 0 0 10px 0;
+
     color: #666666;
     font-size: 13px;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -109,6 +123,9 @@ body {
     border-bottom: solid white 1px;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
+}
+.menubur {
+    display: none;
 }
 
 
