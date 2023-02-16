@@ -28,6 +28,67 @@
     font-size: 11px;
 }
 
+
+
+/*Страница Услуги*/
+.services__content {
+    max-width: 600px;
+}
+.servises-heading-h1 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.servises-heading-p {
+    max-width: 600px;
+}
+.services__content h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.services__content-item-wr p {
+    font-size: 13px;
+}
+.link {
+    font-size: 14px;
+}
+.services__content-item {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* Страница Каталог оборудования*/
+.catalog {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.catalog-wrap {
+    max-width: 1360px;
+}
+.catalog__content {
+    max-width: 1360px;
+}
+.catalog__item {
+    max-width: 800px;
+}
+.catalog__content-heading {
+    max-width: 800px;
+}
+.catalog__equipment {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.catalog-wrap::after {
+    max-width: 1360px;
+}
+
 }
 @media screen and (max-width: 740px) {
     .navbar, navbar-link {
@@ -162,6 +223,38 @@
         font-size: 30px;
         line-height: 35px;
     }
+    .services__content-item img {
+        max-width: 400px;
+        max-height: 350px;
+    }
+    .catalog__item h1 {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 25px 0;
+    }
+    .catalog__item-text {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .catalog__item {
+        max-width: 581px;
+    }
+    .catalog__content-heading {
+        max-width: 650px;
+    }
+    .catalog__equipment {
+        max-width: 700px;
+        margin: 0px auto;
+    }
+    .equipment-img p {
+        font-size: 16px;
+    }
 
 }
 @media screen and (max-width: 450px) {
@@ -175,5 +268,75 @@
     }
     .footer__nav {
         display: none;
+    }
+    .services__content-item-wr p {
+        font-size: 14px;
+    }
+    .servises-heading-h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .services__content h2 {
+        padding-top: 20px;
+    }
+    .link {
+        font-size: 14px;
+    }
+    .catalog__item h1 {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0 0 5px 0;
+    }
+    .catalog__item-text {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .catalog__item {
+        max-width: 420px;
+    }
+    .catalog-wrap {
+        min-height: 300px;
+    }
+    .catalog__content-heading {
+        max-width: 420px;
+    }
+    .catalog__equipment {
+        max-width: 420px;
+        margin: 0px auto;
+        display: block;
+    }
+    .equipment-img p {
+        font-size: 16px;
+    }
+    .catalog__item {
+        position: relative;
+        width: 100%;
+        max-width: 420px;
+        padding-left: 20px;
+        padding-top: 20px;
+        z-index: 100;
+    }
+    .heading-text1 h3 {
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 0 5px 0;
+    }
+    .heading-text1 p {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 15px;
+    }
+    .heading-text2 p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .textfoot p {
+        padding: 20px 10px 20px 10px;
     }
 }

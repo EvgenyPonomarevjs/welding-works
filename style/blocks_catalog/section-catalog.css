@@ -15,6 +15,7 @@
 .catalog-wrap::after {
     content: '';
     display: block;
+    width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -104,6 +105,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .bg {
     width: 100%;
@@ -125,7 +127,6 @@
   }
 .equipment-img {
     list-style: none;
-    margin-right: 10px;
     margin-bottom: 10px;
     flex: 0 0 31.333333%;
     border: 1px solid #666666;
@@ -151,7 +152,7 @@
 }
 .textfoot p {
     display: block;
-    padding: 60px 60px 60px 60px;
+    padding: 60px 60px 60px 100px;
     color: #666666;
     text-shadow: none;
     font-family: "arial", helvetica, sans-serif;
