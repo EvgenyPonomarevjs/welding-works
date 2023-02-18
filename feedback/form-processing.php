@@ -43,7 +43,7 @@ const EMAIL_SETTINGS = [
   'subject' => 'Сообщение с формы обратной связи', // тема письма
   'host' => 'ssl://smtp.gmail.com', // SMTP-хост
   'username' => 'speedjob@gmail.com', // // SMTP-пользователь
-  'password' => '89280373231xxx', // SMTP-пароль
+  'password' => '89280373231xxX', // SMTP-пароль
   'port' => '993' // SMTP-порт
 ];
 const HAS_SEND_NOTIFICATION = false;
