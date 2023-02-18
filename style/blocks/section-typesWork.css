@@ -22,17 +22,17 @@
     overflow-wrap: break-word;
   }
   .backimg1 {
-    background-image: url(./img/home-slideshow-1.jpg);
+    background-image: url(../../img/home-slideshow-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .backimg2 {
-    background-image: url(./img/home-slideshow-0002-1.jpg);
+    background-image: url(../../img/home-slideshow-0002-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .backimg3 {
-    background-image: url(./img/home-slideshow-4.jpg);
+    background-image: url(../../img/home-slideshow-4.jpg);
     background-size: cover;
     background-clip: border-box;
     background-repeat: no-repeat;
