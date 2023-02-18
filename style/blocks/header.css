@@ -18,6 +18,10 @@ body {
     left: 0;
     right: 0;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
 
 }
 .header-logo img {
