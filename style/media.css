@@ -199,7 +199,7 @@
         display: block;
     }
     .carousel-item {
-        padding: 0px 0 0px 0;
+        padding: 0px 0px 0px 0px;
       }
     .advantages__wrap {
         width: 100%;
@@ -359,5 +359,24 @@
     max-width: 400px;
     margin: 0 auto;
     padding-top: 20px;
+    background-color: #fff;
+}
+.backimg1 {
+    background-image: none;
+}
+.backimg2 {
+    background-image: none;
+}
+.backimg3 {
+    background-image: none;
+}
+#backimg1-mob {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 350px;
+    margin: 0 auto;
+
 }
 }

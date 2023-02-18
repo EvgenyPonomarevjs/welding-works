@@ -4,6 +4,7 @@
     font-weight: 600;
     color: white;
     margin-bottom: 30px;
+    background-color: #ffffff;
 }
 .carousel-item {
     width: 100%;
@@ -36,6 +37,9 @@
     background-size: cover;
     background-clip: border-box;
     background-repeat: no-repeat;
+  }
+  #backimg1-mob {
+   display: none; 
   }
 .slide__title {
     display: block;
