@@ -15,6 +15,10 @@
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
+    
+}
+.footer__item-text {
+    padding-top: 15px;
 }
 .footer__item img {
     width: 100px;
@@ -26,14 +30,14 @@
     font-family: "arial", helvetica, sans-serif;
     font-size: 15px;
     line-height: 26px;
-    padding-top: 15px;
 }
 .footer__item a {
+    display: block;
     color: rgba(255, 255, 255, 0.5);
     text-shadow: none;
     font-family: "arial", helvetica, sans-serif;
     font-size: 15px;
-    line-height: 26px;
+    line-height: 20px;
 }
 #button-up img{
     width: 50px;

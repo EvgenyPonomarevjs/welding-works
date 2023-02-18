@@ -36,8 +36,6 @@ body {
     align-items: center;
 }
 .navbar-list  a{
-    padding: 0 10px;
-    line-height: 100px;
     color: #666666;
     font-size: 13px;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -62,6 +60,11 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
 }
 .navbar-list  a:hover{
+    border-bottom: solid white 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.footer__nav-list  a:hover{
     border-bottom: solid white 1px;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
